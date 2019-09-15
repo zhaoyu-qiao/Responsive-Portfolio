@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Info</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+    <!--Heading include name and links to other pages, note background color-->
+    <heading>
+        Jo Qiao
+        <span class="links">
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+    </heading>
+
+    <!--Define new section for the main content, note that there is a bottom border-->
+    <section>
+        <div class="header">Contact</div>
+        <div id="contact-info">
+        <!--Need to define block size for the form-->    
+            <form action="assets/forms/message.cgi">
+            Name:<br>
+            <input type="text" name="full_name" value="Your Name">
+            <br>
+            Email:<br>
+            <input type="email" name="email" value="example@gmail.com">
+            <br>
+            Message:<br>
+            <input type="text" size="100"> 
+            <br>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    
+    <!--Add footer-->
+    <footer>
+           Copyright &copy
+    </footer>
+
+</body>
+</html>
