@@ -64,6 +64,10 @@ body {
     margin:30px 0 50px 0;
 }
 
+section {
+    height:400px;
+}
+
 #about-me {
     color:#4aaaa5;
     padding: 20px 790px 20px 0px;
@@ -78,20 +82,26 @@ body {
     position:absolute;
     left:117px;
 }
-#about-content {
+/*#about-content {
     margin:80px 0 40px 0;
     background-color: #ffffff;
-}
+}*/
 
 #introduction {
     margin:80px 20px 30px 20px;
     background-color:#ffffff;
 }
 
-/*#introduction img {
-    position: absolute;
-    left:20px;
-}*/
+#portrait {
+    float:left;
+}
+
+p {
+    text-align: left;
+    font-size:20px;
+    padding:20px;
+    margin:20px;
+}
 
 .section-heading {
     color:#4aaaa5;
