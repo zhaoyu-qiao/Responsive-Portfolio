@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact Info</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/contact-style.css'>
 </head>
 
 <body>
 
     <!--Heading include name and links to other pages, note background color-->
     <div class="header">
-            <div class="name">Jo Qiao</div>
-            <nav class="nav">
-                    <a href="index.html">About </a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a> 
-            </nav>
+        <div class="name2">Jo Qiao</div>
+        <nav class="nav2">
+            <a href="index.html">About </a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
-    <div class="wrapper">
-    <!--Define new section for the main content, note that there is a bottom border-->
-    <section>
-        <div class="section-heading">Contact</div>
-        <div id="contact-info">
-        <!--Need to define block size for the form-->    
-            <form action="assets/forms/message.cgi">
-            Name:<br>
-            <input type="text" name="full_name" value="Your Name">
-            <br>
-            Email:<br>
-            <input type="email" name="email" value="example@gmail.com">
-            <br>
-            Message:<br>
-            <input type="text" size="100"> 
-            <br>
-            <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-    
+    <div class="wrapper2">
+        <!--Define new section for the main content, note that there is a bottom border-->
+        <section>
+            <div class="section-heading">Contact</div>
+            <div id="contact-info">
+                <!--Need to define block size for the form-->
+                <form action="assets/forms/message.cgi">
+                    Name:<br>
+                    <input type="text" name="full_name" value="Your Name" />
+                    <br>
+                    Email:<br>
+                    <input type="email" name="email" value="example@gmail.com" />
+                    <br>
+                    <p id="message">Message:</p><br>
+                    <!--<input type="text" size="100" width="200" />-->
+                    <!--<input type="textarea" cols="5" rows="200" />-->
+                    <textarea name="Message" id="textarea" cols="98" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+        </section>
+    </div>
+
     <!--Add footer-->
     <footer>
-           Copyright &copy;
+        <div>
+            <p>Copyright &copy;</p>
+        </div>
     </footer>
 
 </body>
+
 </html>

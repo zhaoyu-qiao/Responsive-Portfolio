@@ -1,0 +1,145 @@
+* {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #dddddd;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    margin: 0;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    Padding: 10px 0 60px 0;
+    color: #dddddd;
+}
+
+.name2 {
+    position: absolute;
+    top: 0;
+    left: 315px;
+    Padding: 21px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav2 {
+    background-color: #ffffff;
+    position: absolute;
+    top: 25px;
+    right: 315px;
+}
+
+.nav2 a {
+    background-color: #ffffff;
+    padding-left: 5px;
+    margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+}
+
+.wrapper2 {
+    width: 700px;
+    display: inline-block;
+    margin: 0;
+}
+
+section {
+    height: 400px;
+    display: inline-block;
+}
+
+.wrapper2 section {
+    background-color: #ffffff;
+    margin: 30px 0 50px 0;
+}
+
+
+.section-heading {
+    color: #4aaaa5;
+    padding: 20px 510px 20px 0px;
+    margin: 0 -40px 0 80px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 255px;
+}
+
+#contact-info {
+    margin: 80px 20px 30px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+#contact-info form {
+    background-color: #ffffff;
+    text-align: left;
+    font: 400 "system-ui";
+}
+
+#contact-info form input {
+    background-color: #ffffff;
+    text-align: left;
+
+}
+
+#textarea {
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: inset;
+    /*border-color: initial;
+    border-image: initial;*/
+    padding: 1px;
+
+}
+
+#message {
+    background-color: #ffffff;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: -15px;
+
+}
+
+footer {
+    background-color: #666666;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    color: #ffffff;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    background-color: #666666;
+    color: #ffffff;
+    color: #ffffff;
+    margin-top: 2.5%;
+    padding-top: .5%;
+}
