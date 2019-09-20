@@ -16,6 +16,7 @@ body {
 }
 
 .header {
+    width: 100%;
     margin: 0;
     background-color: #ffffff;
     border-bottom-color: #cccccc;
@@ -23,13 +24,14 @@ body {
     border-bottom-width: 1px;
     Padding: 10px 0 60px 0;
     color: #dddddd;
+    position: relative;
 }
 
 .name2 {
     position: absolute;
     top: 0;
-    left: 315px;
-    Padding: 21px;
+    left: 25%;
+    padding: 21px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -40,8 +42,8 @@ body {
 .nav2 {
     background-color: #ffffff;
     position: absolute;
-    top: 25px;
-    right: 315px;
+    top: 33.33%;
+    right: 24.5%;
 }
 
 .nav2 a {
@@ -62,7 +64,7 @@ body {
 }
 
 .wrapper2 {
-    width: 700px;
+    width: 50%;
     display: inline-block;
     margin: 0;
     background-image: url("../images/grey-paper.jpg");
@@ -71,6 +73,7 @@ body {
 section {
     height: 400px;
     display: inline-block;
+    position: relative;
 }
 
 .wrapper2 section {
@@ -81,8 +84,7 @@ section {
 
 .section-heading {
     color: #4aaaa5;
-    padding: 20px 510px 20px 0px;
-    margin: 0 -40px 0 80px;
+    padding: 20px 510px 20px 0;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 1px;
@@ -91,7 +93,7 @@ section {
     font-weight: bold;
     font-size: 25px;
     position: absolute;
-    left: 255px;
+    left: 20px;
 }
 
 #contact-info {

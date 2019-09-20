@@ -19,6 +19,7 @@ body {
 }
 
 .header {
+    width: 100%;
     margin: 0;
     background-color: #ffffff;
     border-bottom-color: #cccccc;
@@ -26,13 +27,14 @@ body {
     border-bottom-width: 1px;
     Padding: 10px 0 60px 0;
     color: #dddddd;
+    position: relative;
 }
 
 .name {
     position: absolute;
     top: 0;
-    left: 161px;
-    Padding: 21px;
+    left: 12.5%;
+    padding: 21px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -46,7 +48,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 25px;
-    right: 161px;
+    right: 12.5%;
 }
 
 .nav a {

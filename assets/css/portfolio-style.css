@@ -28,7 +28,7 @@ body {
 .name2 {
     position: absolute;
     top: 0;
-    left: 315px;
+    left: 24.5%;
     Padding: 21px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -41,7 +41,7 @@ body {
     background-color: #ffffff;
     position: absolute;
     top: 25px;
-    right: 315px;
+    right: 24.5%;
 }
 
 .nav2 a {
