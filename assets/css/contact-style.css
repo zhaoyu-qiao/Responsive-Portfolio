@@ -12,6 +12,7 @@ html {
 
 body {
     margin: 0;
+    background-image: url("../images/grey-paper.jpg");
 }
 
 .header {
@@ -51,10 +52,19 @@ body {
     text-decoration: none;
 }
 
+.nav2 a:hover {
+    background-color: rgb(109, 216, 211, .3);
+}
+
+.nav2 a:active {
+    font-size: 20px;
+}
+
 .wrapper2 {
     width: 700px;
     display: inline-block;
     margin: 0;
+    background-image: url("../images/grey-paper.jpg");
 }
 
 section {
@@ -105,13 +115,12 @@ section {
 }
 
 #textarea {
-    background-color: #ffffff;
-    border-width: 2px;
-    border-style: inset;
-    /*border-color: initial;
-    border-image: initial;*/
     padding: 1px;
-
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: ridge;
+    padding: 1px;
+    border-color: initial;
 }
 
 #message {
@@ -119,7 +128,22 @@ section {
     text-align: left;
     margin-top: 5px;
     margin-bottom: -15px;
+}
 
+#contact-info form #submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#contact-info form #submit:hover {
+    background-color: rgba(73, 170, 165, 0.3);
+}
+
+#contact-info form #submit:active {
+    font-size: 20px;
+    background-color: #4aaaa5;
 }
 
 footer {

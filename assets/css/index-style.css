@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 * {
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font: 'Nunito', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-color: #dddddd;
 }
@@ -12,6 +14,8 @@ html {
 
 body {
     margin: 0;
+    background-image: url("../images/grey-paper.jpg");
+
 }
 
 .header {
@@ -50,29 +54,24 @@ body {
     padding-left: 5px;
     margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    text-decoration: none;
+    text-decoration: none
 }
 
+.nav a:hover {
+    background-color: rgb(109, 216, 211, .3);
+}
+
+.nav a:active {
+    font-size: 20px;
+}
 
 .wrapper1 {
     width: 960px;
-    height: 500px;
+    height: 535px;
     display: inline-block;
     margin: 0;
+    background-image: url("../images/grey-paper.jpg");
 }
-
-/*.wrapper2 {
-    width: 700px;
-    display: inline-block;
-    margin: 0;
-}
-
-.wrapper3 {
-    width: 700px;
-    display: inline-block;
-    margin: 0;
-}*/
-
 
 section {
     height: 400px;
@@ -82,16 +81,6 @@ section {
     background-color: #ffffff;
     margin: 30px 0 50px 0;
 }
-
-/*.wrapper2 section {
-    background-color: #ffffff;
-    margin: 30px 0 50px 0;
-}
-
-.wrapper2 section {
-    background-color: #ffffff;
-    margin: 30px 0 50px 0;
-}*/
 
 #about-me {
     color: #4aaaa5;
@@ -123,7 +112,6 @@ section {
     left: 117px;
 }
 
-
 #portrait {
     float: left;
     margin: 85px 25px 20px 25px;
@@ -136,7 +124,7 @@ section {
     text-align: left;
     font-size: 20px;
     padding: 0px;
-
+    line-height: 1.5em;
 }
 
 
