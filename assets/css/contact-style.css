@@ -68,6 +68,7 @@ body {
     display: inline-block;
     margin: 0;
     background-image: url("../images/grey-paper.jpg");
+    height: 600px;
 }
 
 section {
