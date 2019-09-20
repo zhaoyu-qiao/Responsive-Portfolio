@@ -54,6 +54,7 @@ body {
 
 .nav2 a:hover {
     background-color: rgb(109, 216, 211, .3);
+    cursor: pointer;
 }
 
 .nav2 a:active {
@@ -139,6 +140,7 @@ section {
 
 #contact-info form #submit:hover {
     background-color: rgba(73, 170, 165, 0.3);
+    cursor: pointer;
 }
 
 #contact-info form #submit:active {

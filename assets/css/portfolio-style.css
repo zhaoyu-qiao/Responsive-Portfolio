@@ -54,6 +54,7 @@ body {
 
 .nav2 a:hover {
     background-color: rgb(109, 216, 211, .3);
+    cursor: pointer;
 }
 
 .nav2 a:active {
