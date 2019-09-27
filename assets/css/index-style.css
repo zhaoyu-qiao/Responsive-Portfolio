@@ -3,6 +3,7 @@
 * {
     font-family: 'Nunito', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    margin: 0;
 }
 
 html {
@@ -12,6 +13,7 @@ html {
 }
 
 body {
+    padding: 0;
     margin: 0;
     background-image: url("../images/grey-paper.jpg");
 
@@ -97,9 +99,9 @@ body {
     height: 60%;
 }*/
 
-#about-me {
+.about-me {
     color: #4aaaa5;
-    padding: 21px 82% 21px 0px;
+    padding: 21px 78% 21px 0px;
     margin: 0 20px 0 20px;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
@@ -107,7 +109,7 @@ body {
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     position: absolute;
     left: 0;
 }
@@ -127,13 +129,13 @@ body {
     left: 117px;
 }*/
 
-#portrait {
+.portrait {
     float: left;
     margin: 85px 25px 20px 25px;
-    border-radius: 49%;
+    border-radius: 50%;
 }
 
-#introduction {
+.introduction {
     margin: 80px 20px 30px 20px;
     background-color: #ffffff;
     text-align: left;
@@ -164,7 +166,17 @@ footer p {
     padding-top: .5%;
 }
 
-@media screen and (max-width:980px) and (min-width:768px) {
+/*about-me needs to be fixed to avoid two lines between 981px to 993 px;*/
+@media screen and (max-width:993) and (min-width:981) {}
+
+.about-me: {
+    font-size: 23px;
+
+}
+}
+
+/*First media query takes care of the styling when screen width is between 768px and 980px*/
+@media screen and (max-width:980px) and (min-width:922px) {
 
     .name {
         position: absolute;
@@ -188,6 +200,7 @@ footer p {
     .wrapper1 section {
         height: 60%;
         margin-left: 5%;
+        margin-right: 5%;
         float: left;
         width: 65%;
     }
@@ -199,12 +212,187 @@ footer p {
         width: 65%;
     }*/
 
-    #about-me {
+    .about-me {
         position: absolute;
         left: 0;
         padding-top: 21px;
         padding-right: 72%;
         padding-bottom: 21px;
         margin-left: 4%;
+    }
+}
+
+/*the about me text padding needs to be fixed between 769 to 922px*/
+@media screen and (max-width:769px) and (min-width:922px) {
+    .about-me {
+        padding-right: 67%;
+    }
+}
+
+@media screen and (max-width:922px) and (min-width:769px) {
+
+    .name {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        padding: 21px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .nav {
+        background-color: #ffffff;
+        position: absolute;
+        top: 25px;
+        right: 5%;
+    }
+
+    .wrapper1 section {
+        height: 60%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        width: 65%;
+    }
+
+    /* #section-aboutme {
+        height: 60%;
+        margin-left: 5%;
+        float: left;
+        width: 65%;
+    }*/
+
+    .about-me {
+        position: absolute;
+        left: 0;
+        padding-top: 21px;
+        padding-right: 67%;
+        padding-bottom: 21px;
+        margin-left: 4%;
+    }
+}
+
+/*Second media query takes care of the styling when screen width is between 640px and 768px*/
+@media screen and (max-width:768px) and (min-width:641px) {
+    .name {
+        position: absolute;
+        top: 0;
+        left: 2.5%;
+        padding: 21px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .nav {
+        background-color: #ffffff;
+        position: absolute;
+        top: 25px;
+        right: 2.5%;
+    }
+
+    .wrapper1 section {
+        height: 60%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        float: left;
+        width: 95%;
+    }
+
+    /* #section-aboutme {
+        height: 60%;
+        margin-left: 5%;
+        float: left;
+        width: 65%;
+    }*/
+
+    .about-me {
+        position: absolute;
+        left: 0;
+        padding-top: 21px;
+        padding-right: 72%;
+        padding-bottom: 21px;
+        margin-left: 4%;
+    }
+}
+
+/*Third media query takes care of the styling when screen width is smaller than 641px*/
+@media screen and (max-width:640px) {
+    .header {
+        padding: 0;
+        magin: 0;
+    }
+
+
+    .name {
+        position: static;
+        width: 100%;
+        padding: 21px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .nav {
+        width: 100%;
+        background-color: #ffffff;
+        position: static;
+        top: 75px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .wrapper1 section {
+        height: 60%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        float: left;
+        width: 95%;
+        /*text-align: center;*/
+    }
+
+    /* #section-aboutme {
+        height: 60%;
+        margin-left: 5%;
+        float: left;
+        width: 65%;
+    }*/
+
+    .about-me {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 21px;
+        padding-right: 64%;
+        padding-bottom: 21px;
+        margin-left: 4%;
+    }
+
+    .portrait {
+        float: none;
+        margin: 25% 10% 10% 10%;
+    }
+
+    .introduction {
+        margin: 0 20px 30px 20px;
+    }
+}
+
+/*when screen width < 473px, change font size to be smaller*/
+@media screen and (max-width:473px) {
+    .about-me {
+        font-size: 18px;
+    }
+
+    .introduction {
+        font-size: 16px;
     }
 }
