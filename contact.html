@@ -6,6 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact Info</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='./assets/css/contact-style.css'>
 </head>
 
@@ -13,8 +14,8 @@
 
     <!--Heading include name and links to other pages, note background color-->
     <div class="header">
-        <div class="name2">Jo Qiao</div>
-        <nav class="nav2">
+        <div class="name">Jo Qiao</div>
+        <nav class="nav">
             <a href="index.html">About </a> |
             <a href="portfolio.html">Portfolio</a> |
             <a href="contact.html">Contact</a>
@@ -33,9 +34,9 @@
                     Email:<br>
                     <input type="email" name="email" value="example@gmail.com" />
                     <br>
-                    <p id="message">Message:</p><br>
+                    <p id="message" class="message">Message:</p><br>
                     <!--Use <textarea> cols="5" instead of i<nput>-->
-                    <textarea name="Message" id="textarea" cols="98" rows="10"></textarea>
+                    <textarea name="Message" id="textarea" cols="80" rows="10"></textarea>
                     <br>
                     <input id="submit" type="submit" value="Submit" />
                 </form>

@@ -1,143 +1,288 @@
-* {
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #dddddd;
-}
+  * {
+      font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      color: #777777;
+  }
 
-html {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+  html {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
 
-body {
-    margin: 0;
-    background-image: url("../images/grey-paper.jpg");
-}
+  body {
+      margin: 0;
+      background-image: url("../images/grey-paper.jpg");
+  }
 
-.header {
-    margin: 0;
-    background-color: #ffffff;
-    border-bottom-color: #cccccc;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    Padding: 10px 0 60px 0;
-    color: #dddddd;
-}
+  .header {
+      width: 100%;
+      margin: 0;
+      background-color: #ffffff;
+      border-bottom-color: #cccccc;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      Padding: 10px 0 60px 0;
+      color: #dddddd;
+      position: relative;
+  }
 
-.name2 {
-    position: absolute;
-    top: 0;
-    left: 24.5%;
-    Padding: 21px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 25px;
-}
+  .name {
+      position: absolute;
+      top: 0;
+      left: 24.5%;
+      Padding: 23px;
+      background-color: #4aaaa5;
+      color: #ffffff;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 25px;
+  }
 
-.nav2 {
-    background-color: #ffffff;
-    position: absolute;
-    top: 25px;
-    right: 24.5%;
-}
+  .nav {
+      background-color: #ffffff;
+      position: absolute;
+      top: 25px;
+      right: 24.5%;
+  }
 
-.nav2 a {
-    background-color: #ffffff;
-    padding-left: 5px;
-    margin: 0;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-decoration: none;
-}
+  .nav a {
+      background-color: #ffffff;
+      padding-left: 5px;
+      margin: 0;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-decoration: none;
+  }
 
-.nav2 a:hover {
-    background-color: rgb(109, 216, 211, .3);
-    cursor: pointer;
-}
+  .nav a:hover {
+      background-color: rgb(109, 216, 211, .3);
+      cursor: pointer;
+  }
 
-.nav2 a:active {
-    font-size: 20px;
-}
+  .nav a:active {
+      font-size: 20px;
+  }
 
-.wrapper2 {
-    width: 650px;
-    display: inline-block;
-    margin: 0;
-    background: #ffffff;
-    margin: 30px;
-    background-image: url("../images/grey-paper.jpg");
+  .wrapper2 {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      margin: 0;
+      background-image: url("../images/grey-paper.jpg");
+  }
 
-}
 
-section {
-    height: 1000px;
-    display: inline-block;
-}
+  .wrapper2 section {
+      margin: 30px 24.5% 50px 24.5%;
+      display: inline-block;
+      position: relative;
+      background-color: #ffffff;
+      height: 90%;
+  }
 
-.wrapper2 section {
-    background-color: #ffffff;
-    margin: 0 0 50px 0;
-}
+  /*.wrapper2 .section*/
+  .section-heading {
+      color: #4aaaa5;
+      padding: 20px 69% 20px 0px;
+      margin: 0 20px 0 20px;
+      border-bottom-style: solid;
+      border-bottom-color: #cccccc;
+      border-bottom-width: 1px;
+      background-color: #ffffff;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      font-weight: bold;
+      font-size: 25px;
+      position: absolute;
+      left: 0;
+  }
 
-.section-heading {
-    color: #4aaaa5;
-    padding: 20px 495px 20px 0px;
-    margin: 0 -40px 0 80px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 1px;
-    background-color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    font-size: 25px;
-    position: absolute;
-    left: 255px;
-}
+  .portfolio-block {
+      float: left;
+      position: relative;
+      margin: 95px 45px 45px 45px;
+  }
 
-.portfolio-block {
-    float: left;
-    position: relative;
-    margin: 95px 45px 45px 45px;
-}
+  .portfolio-name {
+      height: 30px;
+      width: 150px;
+      position: absolute;
+      top: 80%;
+      font-size: 18px;
+      background-color: #4aaaa5;
+      opacity: 0.7;
+      color: #ffffff;
+  }
 
-.portfolio-name {
-    height: 30px;
-    width: 150px;
-    position: absolute;
-    top: 123px;
-    font-size: 18px;
-    background-color: #4aaaa5;
-    opacity: 0.7;
-    color: #ffffff;
-}
+  /*#solutions-architect {
+      padding: 10px 5px 10px 6px;
+      position: absolute;
+      top: 108px;
+      font-size: 18px;
+  }*/
 
-#solutions-architect {
-    padding: 10px 5px 10px 6px;
-    position: absolute;
-    top: 108px;
-    font-size: 18px;
-}
+  footer {
+      background-color: #666666;
+      width: 100%;
+      height: 60px;
+      margin: 0;
+      color: #ffffff;
+      border-top-style: solid;
+      border-top-width: 5px;
+      border-top-color: #4aaaa5;
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+  }
 
-footer {
-    background-color: #666666;
-    width: 100%;
-    height: 60px;
-    margin: 0;
-    color: #ffffff;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #4aaaa5;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-}
+  footer p {
+      background-color: #666666;
+      color: #ffffff;
+      color: #ffffff;
+      margin-top: 2.5%;
+      padding-top: .5%;
+  }
 
-footer p {
-    background-color: #666666;
-    color: #ffffff;
-    color: #ffffff;
-    margin-top: 2.5%;
-    padding-top: .5%;
-}
+  /*First media query takes care of the styling when screen width is between 768px and 980px*/
+  @media screen and (max-width:980px) and (min-width:769px) {
+
+      .name {
+          position: absolute;
+          top: 0;
+          left: 5%;
+      }
+
+      .nav {
+          background-color: #ffffff;
+          position: absolute;
+          top: 25px;
+          right: 5%;
+      }
+
+      .wrapper2 section {
+          height: 60%;
+          margin-left: 5%;
+          margin-right: 5%;
+          float: left;
+          width: 65%;
+      }
+
+      .portfolio-block {
+          folat: none;
+          width: 31%
+      }
+
+      .portfolio-name {
+          width: 100%;
+          top: 90%;
+      }
+
+      .image {
+          width: 100%;
+          height: 100%;
+
+      }
+  }
+
+  /*Second media query takes care of the styling when screen width is between 640px and 768px*/
+  @media screen and (max-width:768px) and (min-width:641px) {
+      .name {
+          position: absolute;
+          top: 0;
+          left: 2.5%;
+      }
+
+      .nav {
+          background-color: #ffffff;
+          position: absolute;
+          top: 25px;
+          right: 2.5%;
+      }
+
+      .wrapper2 section {
+          height: 60%;
+          margin-left: 2.5%;
+          margin-right: 2.5%;
+          float: left;
+          width: 95%;
+      }
+
+
+      .section-heading {
+          position: absolute;
+          left: 0;
+          padding-top: 21px;
+          padding-right: 75%;
+          padding-bottom: 21px;
+          margin-left: 4%;
+      }
+
+      .portfolio-block {
+          folat: none;
+          width: 35%
+      }
+
+      .portfolio-name {
+          width: 100%;
+          top: 90%;
+      }
+
+      .image {
+          width: 100%;
+          height: 100%;
+      }
+  }
+
+
+  /*Third media query takes care of the styling when screen width is smaller than 641px*/
+  @media screen and (max-width:640px) {
+      .header {
+          padding: 0;
+          magin: 0;
+      }
+
+
+      .name {
+          position: static;
+          width: 100%;
+      }
+
+      .nav {
+          width: 100%;
+          position: static;
+          top: 75px;
+          padding: 10px;
+          margin: 0;
+      }
+
+      .wrapper2 section {
+          height: 90%;
+          margin-left: 2.5%;
+          margin-right: 2.5%;
+          float: left;
+          /*text-align: center;*/
+      }
+
+      .section-heading {
+          position: absolute;
+          left: 0;
+          top: 0;
+          padding-top: 21px;
+          padding-right: 64%;
+          padding-bottom: 21px;
+          margin-left: 4%;
+      }
+
+      .portfolio-block {
+          folat: none;
+          width: 78%
+      }
+
+      .portfolio-name {
+          width: 100%;
+          top: 90%;
+      }
+
+      .image {
+          width: 100%;
+          height: 100%;
+      }
+  }

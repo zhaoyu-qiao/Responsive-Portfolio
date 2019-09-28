@@ -35,7 +35,7 @@ body {
     position: absolute;
     top: 0;
     left: 12.5%;
-    padding: 21px;
+    padding: 23px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -167,12 +167,12 @@ footer p {
 }
 
 /*about-me needs to be fixed to avoid two lines between 981px to 993 px;*/
-@media screen and (max-width:993) and (min-width:981) {}
+@media screen and (max-width:993) and (min-width:981) {
 
-.about-me: {
-    font-size: 23px;
+    .about-me: {
+        font-size: 23px;
 
-}
+    }
 }
 
 /*First media query takes care of the styling when screen width is between 768px and 980px*/
@@ -182,12 +182,6 @@ footer p {
         position: absolute;
         top: 0;
         left: 5%;
-        padding: 21px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
-        font-weight: bold;
-        font-size: 25px;
     }
 
     .nav {
@@ -281,12 +275,6 @@ footer p {
         position: absolute;
         top: 0;
         left: 2.5%;
-        padding: 21px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
-        font-weight: bold;
-        font-size: 25px;
     }
 
     .nav {
@@ -332,18 +320,10 @@ footer p {
     .name {
         position: static;
         width: 100%;
-        padding: 21px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-family: 'Georgia', Times, 'Times New Roman', serif;
-        font-weight: bold;
-        font-size: 25px;
-        margin: 0;
     }
 
     .nav {
         width: 100%;
-        background-color: #ffffff;
         position: static;
         top: 75px;
         padding: 10px;
@@ -355,16 +335,9 @@ footer p {
         margin-left: 2.5%;
         margin-right: 2.5%;
         float: left;
-        width: 95%;
         /*text-align: center;*/
     }
 
-    /* #section-aboutme {
-        height: 60%;
-        margin-left: 5%;
-        float: left;
-        width: 65%;
-    }*/
 
     .about-me {
         position: absolute;
