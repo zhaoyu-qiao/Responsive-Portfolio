@@ -127,19 +127,6 @@ body {
     width: 124%
 }
 
-
-/*#textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-}*/
-
 #message {
     background-color: #ffffff;
     text-align: left;
@@ -212,4 +199,97 @@ footer p {
     }
 
 
+}
+
+/*Second media query takes care of the styling when screen width is between 640px and 768px*/
+@media screen and (max-width:768px) and (min-width:641px) {
+    .name {
+        position: absolute;
+        top: 0;
+        left: 2.5%;
+    }
+
+    .nav {
+        background-color: #ffffff;
+        position: absolute;
+        top: 25px;
+        right: 2.5%;
+    }
+
+    .wrapper2 section {
+        height: 60%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        float: left;
+        width: 95%;
+    }
+
+    .section-heading {
+        position: absolute;
+        left: 0;
+        padding-top: 21px;
+        padding-right: 72%;
+        padding-bottom: 21px;
+        margin-left: 4%;
+    }
+
+    .textarea {
+        padding: 1px;
+        background-color: #ffffff;
+        border-width: 1px;
+        border-style: ridge;
+        padding: 1px;
+        border-color: initial;
+        width: 124%
+    }
+}
+
+/*Third media query takes care of the styling when screen width is smaller than 641px*/
+@media screen and (max-width:640px) {
+    .header {
+        padding: 0;
+        magin: 0;
+    }
+
+
+    .name {
+        position: static;
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+        position: static;
+        top: 75px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .wrapper2 section {
+        height: 70%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        float: left;
+        /*text-align: center;*/
+    }
+
+    .section-heading {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 21px;
+        padding-right: 64%;
+        padding-bottom: 21px;
+        margin-left: 4%;
+    }
+
+    .textarea {
+        padding: 1px;
+        background-color: #ffffff;
+        border-width: 1px;
+        border-style: ridge;
+        padding: 1px;
+        border-color: initial;
+        width: 124%
+    }
 }
