@@ -293,3 +293,14 @@ footer p {
         width: 124%
     }
 }
+
+/* when screen width < 473px, change font size to be smaller*/
+@media screen and (max-width:473px) {
+    .section-heading {
+        font-size: 18px;
+    }
+
+    .contact-info .form {
+        font-size: 16px;
+    }
+}

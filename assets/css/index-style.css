@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+/*Below is a different font that can be used. It is currently commented out., use 'Nunito' in font-family*/
+/*@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');*/
 
 * {
-    font-family: 'Nunito', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     margin: 0;
 }
@@ -77,11 +78,6 @@ body {
     background-image: url("../images/grey-paper.jpg");
 }
 
-/*section {
-    width: 960px;
-    height: 60%;
-    display: inline-block;
-}*/
 
 .wrapper1 section {
     margin: 30px 12.5% 50px 12.5%;
@@ -91,13 +87,7 @@ body {
     height: 60%;
 }
 
-/*#section-aboutme {
-    margin: 30px 12.5% 50px 12.5%;
-    display: inline-block;
-    position: relative;
-    background-color: #ffffff;
-    height: 60%;
-}*/
+
 
 .about-me {
     color: #4aaaa5;
@@ -113,21 +103,6 @@ body {
     position: absolute;
     left: 0;
 }
-
-/*.section-heading {
-    color: #4aaaa5;
-    padding: 20px 780px 20px 0px;
-    margin: 0 -38px 0 65px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 1px;
-    background-color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    font-size: 25px;
-    position: absolute;
-    left: 117px;
-}*/
 
 .portrait {
     float: left;
@@ -175,7 +150,8 @@ footer p {
     }
 }
 
-/*First media query takes care of the styling when screen width is between 768px and 980px*/
+/* Media query 1 takes care of the styling when screen width is between 768px and 980px*/
+/* Media query 1-1 between 922px and 980px*/
 @media screen and (max-width:980px) and (min-width:922px) {
 
     .name {
@@ -199,12 +175,6 @@ footer p {
         width: 65%;
     }
 
-    /* #section-aboutme {
-        height: 60%;
-        margin-left: 5%;
-        float: left;
-        width: 65%;
-    }*/
 
     .about-me {
         position: absolute;
@@ -216,13 +186,14 @@ footer p {
     }
 }
 
-/*the about me text padding needs to be fixed between 769 to 922px*/
+/* Media query 1-2,the about me text padding needs to be fixed between 769 to 922px*/
 @media screen and (max-width:769px) and (min-width:922px) {
     .about-me {
         padding-right: 67%;
     }
 }
 
+/* Media query 1-3 between 769px and 922px*/
 @media screen and (max-width:922px) and (min-width:769px) {
 
     .name {
@@ -245,19 +216,13 @@ footer p {
     }
 
     .wrapper1 section {
-        height: 60%;
+        height: 70%;
         margin-left: 5%;
         margin-right: 5%;
         float: left;
         width: 65%;
     }
 
-    /* #section-aboutme {
-        height: 60%;
-        margin-left: 5%;
-        float: left;
-        width: 65%;
-    }*/
 
     .about-me {
         position: absolute;
@@ -269,7 +234,7 @@ footer p {
     }
 }
 
-/*Second media query takes care of the styling when screen width is between 640px and 768px*/
+/*Media query 2 takes care of the styling when screen width is between 640px and 768px*/
 @media screen and (max-width:768px) and (min-width:641px) {
     .name {
         position: absolute;
@@ -285,19 +250,12 @@ footer p {
     }
 
     .wrapper1 section {
-        height: 60%;
+        height: 70%;
         margin-left: 2.5%;
         margin-right: 2.5%;
         float: left;
         width: 95%;
     }
-
-    /* #section-aboutme {
-        height: 60%;
-        margin-left: 5%;
-        float: left;
-        width: 65%;
-    }*/
 
     .about-me {
         position: absolute;
@@ -309,7 +267,7 @@ footer p {
     }
 }
 
-/*Third media query takes care of the styling when screen width is smaller than 641px*/
+/*Media query 3 takes care of the styling when screen width is smaller than 641px*/
 @media screen and (max-width:640px) {
     .header {
         padding: 0;
@@ -359,7 +317,7 @@ footer p {
     }
 }
 
-/*when screen width < 473px, change font size to be smaller*/
+/* when screen width < 473px, change font size to be smaller*/
 @media screen and (max-width:473px) {
     .about-me {
         font-size: 18px;

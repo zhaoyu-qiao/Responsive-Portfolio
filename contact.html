@@ -5,14 +5,16 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact Info</title>
+    <!--Remember to insert the viewport meta tag so that media queries can apply-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--Include reset.css to standardize the default style for different devices-->
     <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='./assets/css/contact-style.css'>
 </head>
 
 <body>
 
-    <!--Heading include name and links to other pages, note background color-->
+    <!--Header includes name and nav-->
     <div class="header">
         <div class="name">Jo Qiao</div>
         <nav class="nav">
@@ -21,13 +23,15 @@
             <a href="contact.html">Contact</a>
         </nav>
     </div>
+
+    <!--wrapper wraps up the space between header and footer, within wrapper, the section contains form-->
     <div class="wrapper2">
         <!--Define new section for the main content, note that there is a bottom border-->
         <section>
             <div class="section-heading">Contact</div>
-            <div id="contact-info">
+            <div id="contact-info" class="contact-info">
                 <!--Need to define block size for the form-->
-                <form action="assets/forms/message.cgi">
+                <form class="form" action="assets/forms/message.cgi">
                     Name:<br>
                     <input type="text" name="full_name" value="Your Name" />
                     <br>
@@ -35,7 +39,7 @@
                     <input type="email" name="email" value="example@gmail.com" />
                     <br>
                     <p id="message" class="message">Message:</p><br>
-                    <!--Use <textarea> cols="5" instead of i<nput>-->
+                    <!--Use <textarea> instead of i<nput>, use css to define width of textarea-->
                     <textarea name="Message" id="textarea" class="textarea" cols="80" rows="10"></textarea>
                     <br>
                     <input id="submit" type="submit" value="Submit" />

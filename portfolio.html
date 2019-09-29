@@ -5,13 +5,15 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Portfolio</title>
+    <!--Remember to insert the viewport meta tag so that media queries can apply-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--Include reset.css to standardize the default style for different devices-->
     <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
     <link rel='stylesheet' type='text/css' href='assets/css/portfolio-style.css'>
 </head>
 
 <body>
-    <!--Heading include name and links to other pages, note background image-->
+    <!--Header includes name and nav-->
     <div class="header">
         <div class="name">Jo Qiao</div>
         <nav class="nav">
@@ -21,13 +23,14 @@
         </nav>
     </div>
 
+    <!--wrapper wraps up the space between header and footer, within wrapper, the section contains image and content-->
     <div class="wrapper2">
 
         <!--Define new section for the main content, note that there is a bottom border-->
         <section class="section">
             <div class="section-heading">Portfolio</div>
             <!--Pay attention to layers of images and texts-->
-            <!--<div class="section-content">-->
+            <!--Define each separate portfolio block, within each block, use position to define portfolio name and image-->
             <div class="portfolio-block">
                 <div class="portfolio-name">Solutions Architect</div>
                 <img class="image" src="assets/images/solutions.png" alt="Soutions Architect" width="150" height="150">
@@ -52,7 +55,6 @@
                 <div class="portfolio-name">Ballroom Dancing</div>
                 <img class="image" src="assets/images/ballroom.png" alt="Ballroom Dancing" width="150" height="150">
             </div>
-            <!--</div>-->
         </section>
 
     </div>
